@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+:root {
+  --DarkBG: #1f2937;
+  --HeroFontSize: 48px;
+  --SecondaryText: 18px;
+  --SecondaryTextColor: #e5e7eb;
+  --BtnColor: #3882f6;
+  --InfoHeaderFontSize: 36px;
+  --QouteSectionBG: #e5e7eb;
+}
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word; /* see how this comes out*/
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  background-color: var(--DarkBG);
+  min-height: 100vh;
+  font-family: "Roboto Slab", serif;
+  /*  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  */
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+.logo img {
+  width: 8%;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(219, 219, 219);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.hero-section img {
+  width: 90%;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+
+.info-section {
+  background-color: hsl(257, 47%, 6%);
+  padding: 50px;
+}
+
+.info-section img {
+  width: 20%;
+}
+
+.info-section h2 {
+  text-align: center;
+  color: rgb(207, 207, 2);
+  margin-bottom: 30px;
+}
+
+.eagle-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.eagle-gallery img {
+  border-radius: 10px;
+}
+
+.header-content h1,
+p {
+  color: white;
+}
+
+.header-content {
+  padding: 50px;
+  max-width: 600px;
+  width: 90%;
+  font-size: 1.5rem;
+}
+
+.qoute-section div {
+  font-size: 2rem;
+  padding: 50px;
+  text-align: center;
+  color: rgb(70, 8, 214);
+  font-style: italic;
+}
+
+.last-section {
+  max-width: 800px;
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.last-section button {
+  display: block;
+  border: none;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+}
